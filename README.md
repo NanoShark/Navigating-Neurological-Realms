@@ -6,20 +6,6 @@ Parkinson's disease (PD) is a neurodegenerative disorder that affects millions w
 ## Project Overview
 "Navigating Neurological Realms" is a VR-based diagnostic tool designed to detect asymmetry in hand movements during simulated swimming tasks. This tool is built using the Unity game engine and Oculus Quest 2 VR headset, which tracks and records detailed hand movement data for analysis. The ultimate goal is to provide a non-invasive, engaging, and highly sensitive diagnostic tool for early detection of Parkinson's disease.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Background and Related Work](#background-and-related-work)
-- [Expected Achievements](#expected-achievements)
-- [Software Engineering Process](#software-engineering-process)
-- [Evaluation Plans](#evaluation-plans)
-- [References](#references)
-
-## Introduction
-Parkinson’s Disease (PD) is a progressive neurodegenerative disease affecting the brain's substantia nigra, leading to motor symptoms such as tremor, bradykinesia, and postural instability. This project focuses on detecting asymmetry in motor functions as a potential early indicator of PD.
-
-## Background and Related Work
-Current detection methods for PD include DaTSCAN and the MDS-UPDRS scale. VR methods are emerging as powerful tools for PD diagnosis. This project builds on existing VR techniques and aims to enhance early detection through a VR swimming simulation test.
-
 ## Expected Achievements
 1. **Early and Accurate Detection**: Develop a proof of concept for a VR tool to measure asymmetry in hand movements, potentially aiding in early PD diagnosis.
 2. **Improved Patient Experience**: Offer a more immersive and user-friendly diagnostic process, reducing anxiety and improving compliance.
