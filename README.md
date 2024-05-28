@@ -1,7 +1,3 @@
-Here's a README section for your GitHub repository:
-
----
-
 # Navigating Neurological Realms: VR Diagnosis for Early Parkinson's Detection
 
 ## Abstract
