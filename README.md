@@ -36,37 +36,12 @@ The project involves researching PD, designing the VR environment, and implement
 ### Product
 The VR system tracks the user's movements during the exercise and records the data into a CSV file. The recorded data includes the position, rotation, timing, and stroke events of each hand. This data is analyzed to detect asymmetries, which may indicate early-stage PD.
 
-### Architecture Diagram
-![Architecture Diagram](link-to-architecture-diagram)
-
-### Use Case and Flowchart
-![Use Case](link-to-use-case)
-![Flowchart](link-to-flowchart)
-
 ### CSV File Example
 ![CSV Example](link-to-csv-example)
 
 ### Data Analysis
 The analysis involves calculating the Index of Asymmetry (IA) for various parameters and comparing the results to a threshold value to determine the presence of asymmetry.
 
-### How Oculus Quest 2 Tracks Movements
-The Oculus Quest 2 uses an Inertial Measurement Unit (IMU), inside-out tracking system, and hand tracking capabilities to provide accurate motion tracking.
 
-## Evaluation Plans
-Evaluation includes testing the system's functionality with healthy individuals and PD patients at various stages. A comprehensive test plan and test table ensure that the system works as expected and provides accurate diagnostic results.
 
-## References
-- [The Immersive Cleveland Clinic Virtual Reality Shopping Platform](https://www.jove.com/t/63978/the-immersive-cleveland-clinic-virtual-reality-shopping-platform-for)
-- [Parkinson Disease](https://pubmed.ncbi.nlm.nih.gov/27243427/)
-- [Role of DaTSCAN and Clinical Diagnosis in Parkinson Disease](https://www.neurology.org/doi/abs/10.1212/WNL.0b013e318248e520)
-- [Measuring Parkinson's Disease Over Time](https://movementdisorders.onlinelibrary.wiley.com/doi/full/10.1002/mds.27790)
-- [Asymmetry of Arm-Swing Not Related to Handedness](https://www.sciencedirect.com/science/article/pii/S0966636207001361)
-- [Motor Asymmetry Over Time in Parkinson’s Disease](https://www.sciencedirect.com/science/article/pii/S0022510X18303125)
-- [Parkinson's Disease: Challenges, Progress, and Promise](https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise)
-- [A Survey on Computer-Assisted Parkinson's Disease Diagnosis](https://www.sciencedirect.com/science/article/pii/S0933365717305663)
-- [Parkinson Disease (Primer)](https://sci-hub.se/https://www.nature.com/articles/nrdp201713)
-- [Neuroanatomy Substantia Nigra](https://www.ncbi.nlm.nih.gov/books/NBK536995/)
-- [Oculus Integration Package Documentation](https://developer.oculus.com/documentation/unity/)
-- [Unity XR Documentation](https://docs.unity3d.com/ScriptReference/XR.CommonUsages.html)
-- [Virtual Reality System May Help Diagnose Parkinson's](https://parkinsonsnewstoday.com/news/virtual-reality-system-may-help-diagnose-parkinsons/)
 
