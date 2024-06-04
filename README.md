@@ -18,9 +18,6 @@ The project involves researching PD, designing the VR environment, and implement
 ### Product
 The VR system tracks the user's movements during the exercise and records the data into a CSV file. The recorded data includes the position, rotation, timing, and stroke events of each hand. This data is analyzed to detect asymmetries, which may indicate early-stage PD.
 
-### CSV File Example
-![CSV Example](link-to-csv-example)
-
 ### Data Analysis
 The analysis involves calculating the Index of Asymmetry (IA) for various parameters and comparing the results to a threshold value to determine the presence of asymmetry.
 
