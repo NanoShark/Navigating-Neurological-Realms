@@ -2,9 +2,15 @@ fileFormatVersion: 2
 guid: 9b009fbdb2530004db0da6b41e22738e
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - Material_Texture2D_0: {instanceID: 0}
+  - Material_Texture2D_1: {instanceID: 0}
+  - Material_TextureD_3: {instanceID: 0}
+  - _texcoord: {instanceID: 0}
+  - unity_Lightmaps: {instanceID: 0}
+  - unity_LightmapsInd: {instanceID: 0}
+  - unity_ShadowMasks: {instanceID: 0}
   nonModifiableTextures: []
-  preprocessorOverride: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
