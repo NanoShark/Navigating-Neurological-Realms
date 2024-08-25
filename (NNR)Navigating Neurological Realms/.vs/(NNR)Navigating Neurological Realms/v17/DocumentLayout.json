@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC4D3058-5062-5DBF-0C16-4924BE0C7DCC}|Oculus.VR.Editor.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\oculus\\vr\\editor\\ovrprojectsetup\\tasks\\processors\\ovrconfigurationtaskupdatersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC4D3058-5062-5DBF-0C16-4924BE0C7DCC}|Oculus.VR.Editor.csproj|solutionrelative:assets\\oculus\\vr\\editor\\ovrprojectsetup\\tasks\\processors\\ovrconfigurationtaskupdatersummary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\swimmeroculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmeroculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OVRConfigurationTaskUpdaterSummary.cs",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\VR\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\VR\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "RelativeToolTip": "Assets\\Oculus\\VR\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
-              "ViewState": "AQIAALoAAAAAAAAAAAAYwM4AAAAqAAAA",
+              "Title": "SwimmerOculus.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T21:52:11.961Z",
+              "WhenOpened": "2024-08-25T08:23:00.344Z",
               "EditorCaption": ""
             }
           ]
