@@ -91,6 +91,7 @@ public class GameTimer : MonoBehaviour
         if (!string.IsNullOrEmpty(sceneToLoad))
         {
             SceneManager.LoadScene(sceneToLoad); // Load the specified scene
+           
         }
         else
         {
