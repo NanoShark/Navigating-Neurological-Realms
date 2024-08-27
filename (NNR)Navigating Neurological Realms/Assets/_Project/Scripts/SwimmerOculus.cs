@@ -45,8 +45,8 @@ public class Swimmer : MonoBehaviour
         bool leftTriggerPressed = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.LTouch);
         bool rightTriggerPressed = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch);
 
-        Debug.Log("Left Trigger Pressed: " + leftTriggerPressed);
-        Debug.Log("Right Trigger Pressed: " + rightTriggerPressed);
+        //Debug.Log("Left Trigger Pressed: " + leftTriggerPressed);
+        //Debug.Log("Right Trigger Pressed: " + rightTriggerPressed);
 
         if (_cooldownTimer > minTimeBetweenStrokes && leftTriggerPressed && rightTriggerPressed)
         {
@@ -55,9 +55,9 @@ public class Swimmer : MonoBehaviour
             Vector3 localVelocity = leftHandVelocity + rightHandVelocity;
             localVelocity *= -1;
 
-            Debug.Log("Left Hand Velocity: " + leftHandVelocity);
-            Debug.Log("Right Hand Velocity: " + rightHandVelocity);
-            Debug.Log("Combined Local Velocity: " + localVelocity);
+            //Debug.Log("Left Hand Velocity: " + leftHandVelocity);
+            //Debug.Log("Right Hand Velocity: " + rightHandVelocity);
+            //Debug.Log("Combined Local Velocity: " + localVelocity);
 
             if (localVelocity.sqrMagnitude > minForce * minForce)
             {
@@ -66,8 +66,8 @@ public class Swimmer : MonoBehaviour
                 _cooldownTimer = 0f;
                 isSwimmingThisFrame = true;
 
-                Debug.Log("Applied Force: " + (worldVelocity * swimForce));
-                Debug.Log("Cooldown Timer Reset");
+                //Debug.Log("Applied Force: " + (worldVelocity * swimForce));
+                //Debug.Log("Cooldown Timer Reset");
             }
         }
 
@@ -75,23 +75,23 @@ public class Swimmer : MonoBehaviour
         if (_rigidbody.velocity.sqrMagnitude > 0.01f)
         {
             _rigidbody.AddForce(-_rigidbody.velocity * dragForce, ForceMode.Acceleration);
-            Debug.Log("Applied Drag Force: " + (-_rigidbody.velocity * dragForce));
+            //Debug.Log("Applied Drag Force: " + (-_rigidbody.velocity * dragForce));
         }
 
-        Debug.Log("Rigidbody Velocity: " + _rigidbody.velocity);
+        //Debug.Log("Rigidbody Velocity: " + _rigidbody.velocity);
 
         // Handle swimming sound
         if (isSwimmingThisFrame && !_isSwimming)
         {
             _audioSource.Play();
             _isSwimming = true;
-            Debug.Log("Swimming Sound Played");
+            //Debug.Log("Swimming Sound Played");
         }
         else if (!isSwimmingThisFrame && _isSwimming)
         {
             _audioSource.Stop();
             _isSwimming = false;
-            Debug.Log("Swimming Sound Stopped");
+            //Debug.Log("Swimming Sound Stopped");
         }
     }
 }
