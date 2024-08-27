@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\oculus\\sampleframework\\usage\\handstrainexample\\shaders\\xinglightshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\oculus\\sampleframework\\usage\\handstrainexample\\shaders\\xinglightshader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\oculus\\sampleframework\\core\\debugui\\scripts\\laserpointer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\oculus\\sampleframework\\core\\debugui\\scripts\\laserpointer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "XingLightShader.shader",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\SampleFramework\\Usage\\HandsTrainExample\\Shaders\\XingLightShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Oculus\\SampleFramework\\Usage\\HandsTrainExample\\Shaders\\XingLightShader.shader",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\SampleFramework\\Usage\\HandsTrainExample\\Shaders\\XingLightShader.shader",
-              "RelativeToolTip": "Assets\\Oculus\\SampleFramework\\Usage\\HandsTrainExample\\Shaders\\XingLightShader.shader",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-08-25T09:57:25.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\MenuController.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\MenuController.cs",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\MenuController.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\MenuController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Title": "GameTimer.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\GameTimer.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\GameTimer.cs",
+              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\GameTimer.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\GameTimer.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAiwFsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T09:46:19.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LaserPointer.cs",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\SampleFramework\\Core\\DebugUI\\Scripts\\LaserPointer.cs",
-              "RelativeDocumentMoniker": "Assets\\Oculus\\SampleFramework\\Core\\DebugUI\\Scripts\\LaserPointer.cs",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\SampleFramework\\Core\\DebugUI\\Scripts\\LaserPointer.cs",
-              "RelativeToolTip": "Assets\\Oculus\\SampleFramework\\Core\\DebugUI\\Scripts\\LaserPointer.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T09:33:32.756Z",
+              "WhenOpened": "2024-08-27T09:22:38.482Z",
               "EditorCaption": ""
             }
           ]
