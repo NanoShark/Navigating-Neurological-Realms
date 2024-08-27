@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
-using UnityEngine.SceneManagement; // Required to manage scenes
 
 public class GameTimer : MonoBehaviour
 {
@@ -12,7 +11,6 @@ public class GameTimer : MonoBehaviour
     [SerializeField] private float initialTimeInSeconds = 300f; // Initial time in seconds (e.g., 300 seconds for 5 minutes)
     [SerializeField] private TMP_Text timerDisplayText; // Reference to the TextMeshPro component for displaying the time
     [SerializeField] private GameObject endGameCanvas; // Reference to the Canvas that will be shown when the timer ends
-    [SerializeField] private string sceneToLoad; // Name of the scene to load when the A button is pressed
 
     // Start is called before the first frame update
     void Start()
@@ -48,7 +46,7 @@ public class GameTimer : MonoBehaviour
         // Check if the A button is pressed
         if (OVRInput.GetDown(OVRInput.Button.One) && currentTimeRemaining <= 0)
         {
-            LoadNextScene(); // Load the next scene
+            ExitGame(); // Exit the game
         }
     }
 
@@ -85,17 +83,10 @@ public class GameTimer : MonoBehaviour
         endGameCanvas.SetActive(true); // Show the end game canvas
     }
 
-    private void LoadNextScene()
+    private void ExitGame()
     {
-        // Ensure you have set the scene name in the Unity Inspector
-        if (!string.IsNullOrEmpty(sceneToLoad))
-        {
-            SceneManager.LoadScene(sceneToLoad); // Load the specified scene
-           
-        }
-        else
-        {
-            Debug.LogError("Scene name to load is not set!");
-        }
+        // This will quit the application. Note that this only works in a built application, not in the Unity editor.
+        Application.Quit();
+        Debug.Log("Game is exiting"); // This message will appear in the console to confirm the quit request in the editor
     }
 }
