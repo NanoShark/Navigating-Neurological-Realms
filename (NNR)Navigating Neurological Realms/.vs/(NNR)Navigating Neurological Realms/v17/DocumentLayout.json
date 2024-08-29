@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\swimmerdatarecodercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmerdatarecodercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7FD80F8-3619-AE6A-3F87-FBCB559FE886}|Oculus.VR.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\oculus\\vr\\scripts\\ovrmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7FD80F8-3619-AE6A-3F87-FBCB559FE886}|Oculus.VR.csproj|solutionrelative:assets\\oculus\\vr\\scripts\\ovrmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\assets\\_project\\scripts\\swimmerdatarecoderoculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmerdatarecoderoculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\swimmerdatarecodercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmerdatarecodercomputer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\assets\\_project\\scripts\\gametimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OVRManager.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\VR\\Scripts\\OVRManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Oculus\\VR\\Scripts\\OVRManager.cs",
+              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\Oculus\\VR\\Scripts\\OVRManager.cs",
+              "RelativeToolTip": "Assets\\Oculus\\VR\\Scripts\\OVRManager.cs",
+              "ViewState": "AQIAAJELAAAAAAAAAADwv5oLAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T19:19:07.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SwimmerDataRecoderComputer.cs",
               "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerDataRecoderComputer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SwimmerDataRecoderComputer.cs",
@@ -45,13 +62,14 @@
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
               "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAADgvwwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T19:16:33.152Z"
+              "WhenOpened": "2024-08-28T19:16:33.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameTimer.cs",
               "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\GameTimer.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\GameTimer.cs",
