@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\submarineaudiotrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\submarineaudiotrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\assets\\_project\\scripts\\swimmerdatarecoderoculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmerdatarecoderoculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\swimmeroculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\swimmeroculus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SubmarineAudioTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SubmarineAudioTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SubmarineAudioTrigger.cs",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SubmarineAudioTrigger.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\SubmarineAudioTrigger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Title": "SwimmerOculus.cs",
+              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "RelativeToolTip": "Assets\\_Project\\Scripts\\SwimmerOculus.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAqwGIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T23:02:18.59Z",
+              "WhenOpened": "2024-09-01T10:41:13.268Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Shaders\\Lit.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-08-31T19:09:35.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SwimmerDataRecoderOculus.cs",
-              "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
-              "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
-              "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
-              "RelativeToolTip": "Assets\\_Project\\Scripts\\SwimmerDataRecoderOculus.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAhwFQAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T19:16:33.152Z"
             }
           ]
         }
