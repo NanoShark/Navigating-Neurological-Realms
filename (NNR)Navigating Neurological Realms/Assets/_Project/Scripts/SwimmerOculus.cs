@@ -8,6 +8,9 @@ public class Swimmer : MonoBehaviour
     [SerializeField] float dragForce = 1f;
     [SerializeField] float minForce;
     [SerializeField] float minTimeBetweenStrokes;
+    [SerializeField] float hapticFrequency = 0.5f;  // Frequency for the haptic feedback
+    [SerializeField] float hapticAmplitude = 0.8f;  // Amplitude for the haptic feedback
+    [SerializeField] float hapticDuration = 0.1f;   // Duration of the haptic feedback
 
     [Header("References")]
     [SerializeField] Transform trackingReference;
@@ -45,19 +48,12 @@ public class Swimmer : MonoBehaviour
         bool leftTriggerPressed = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.LTouch);
         bool rightTriggerPressed = OVRInput.Get(OVRInput.Button.PrimaryHandTrigger, OVRInput.Controller.RTouch);
 
-        //Debug.Log("Left Trigger Pressed: " + leftTriggerPressed);
-        //Debug.Log("Right Trigger Pressed: " + rightTriggerPressed);
-
         if (_cooldownTimer > minTimeBetweenStrokes && leftTriggerPressed && rightTriggerPressed)
         {
             Vector3 leftHandVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch);
             Vector3 rightHandVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
             Vector3 localVelocity = leftHandVelocity + rightHandVelocity;
             localVelocity *= -1;
-
-            //Debug.Log("Left Hand Velocity: " + leftHandVelocity);
-            //Debug.Log("Right Hand Velocity: " + rightHandVelocity);
-            //Debug.Log("Combined Local Velocity: " + localVelocity);
 
             if (localVelocity.sqrMagnitude > minForce * minForce)
             {
@@ -66,8 +62,12 @@ public class Swimmer : MonoBehaviour
                 _cooldownTimer = 0f;
                 isSwimmingThisFrame = true;
 
-                //Debug.Log("Applied Force: " + (worldVelocity * swimForce));
-                //Debug.Log("Cooldown Timer Reset");
+                // Trigger haptic feedback
+                OVRInput.SetControllerVibration(hapticFrequency, hapticAmplitude, OVRInput.Controller.LTouch);
+                OVRInput.SetControllerVibration(hapticFrequency, hapticAmplitude, OVRInput.Controller.RTouch);
+
+                // Stop haptic feedback after the duration
+                Invoke(nameof(StopHaptics), hapticDuration);
             }
         }
 
@@ -75,23 +75,24 @@ public class Swimmer : MonoBehaviour
         if (_rigidbody.velocity.sqrMagnitude > 0.01f)
         {
             _rigidbody.AddForce(-_rigidbody.velocity * dragForce, ForceMode.Acceleration);
-            //Debug.Log("Applied Drag Force: " + (-_rigidbody.velocity * dragForce));
         }
-
-        //Debug.Log("Rigidbody Velocity: " + _rigidbody.velocity);
 
         // Handle swimming sound
         if (isSwimmingThisFrame && !_isSwimming)
         {
             _audioSource.Play();
             _isSwimming = true;
-            //Debug.Log("Swimming Sound Played");
         }
         else if (!isSwimmingThisFrame && _isSwimming)
         {
             _audioSource.Stop();
             _isSwimming = false;
-            //Debug.Log("Swimming Sound Stopped");
         }
+    }
+
+    private void StopHaptics()
+    {
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.LTouch);
+        OVRInput.SetControllerVibration(0, 0, OVRInput.Controller.RTouch);
     }
 }
