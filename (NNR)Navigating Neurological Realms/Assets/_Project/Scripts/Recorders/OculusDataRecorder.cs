@@ -6,7 +6,8 @@ public class OculusDataRecorder : MonoBehaviour
 {
     public float recordInterval = 0.1f; // Record data every 0.1 seconds
     public string savePath; // Path where the CSV will be saved
-    public static string playerName = "Player"; // Default player name, can be set from another script
+    public static string playerName; // Default player name, can be set from another script
+
 
     private float timer = 0f;
     private List<ControllerData> dataList = new List<ControllerData>();
@@ -76,6 +77,8 @@ public class OculusDataRecorder : MonoBehaviour
             Debug.Log("No data to save.");
             return;
         }
+
+        playerName = StartButtonController.playerName;
 
         string formattedTime = System.DateTime.Now.ToString("yyyyMMdd_HHmm");
         string fileName = $"{playerName}_{formattedTime}.csv";

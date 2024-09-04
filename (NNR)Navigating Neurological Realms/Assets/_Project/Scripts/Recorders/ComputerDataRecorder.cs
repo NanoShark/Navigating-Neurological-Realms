@@ -6,7 +6,8 @@ public class ComputerDataRecorder : MonoBehaviour
 {
     public float dataRecordInterval = 0.1f; // Record data every 0.1 seconds
     public string computerSavePath = "C:\\Users\\micka\\Downloads\\data"; // Update with your desired path
-    public static string playerName = "Player"; // Default player name, can be set from another script
+    public static string playerName; // Default player name, can be set from another script
+
 
     private float recordTimer = 0f;
     private List<ControllerDataRecord> controllerDataList = new List<ControllerDataRecord>();
@@ -79,6 +80,8 @@ public class ComputerDataRecorder : MonoBehaviour
             Debug.Log("No data to save.");
             return;
         }
+
+        playerName = StartButtonController.playerName;
 
         string formattedTime = System.DateTime.Now.ToString("yyyyMMdd_HHmm");
         string fileName = $"{playerName}_{formattedTime}.csv";
