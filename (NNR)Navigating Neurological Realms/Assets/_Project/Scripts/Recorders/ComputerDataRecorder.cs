@@ -8,10 +8,12 @@ public class ComputerDataRecorder : MonoBehaviour
     public string computerSavePath = "C:\\Users\\micka\\Downloads\\data"; // Update with your desired path
     public static string playerName; // Default player name, can be set from another script
 
-
     private float recordTimer = 0f;
     private List<ControllerDataRecord> controllerDataList = new List<ControllerDataRecord>();
     private bool isRecorderInitialized = false;
+
+    private float handCloseThreshold = 0.1f; // Set the threshold for how close hands should be (10 CM)
+    private int handCloseCount = 0; // Counter for how many times hands are close
 
     private void Start()
     {
@@ -59,6 +61,15 @@ public class ComputerDataRecorder : MonoBehaviour
         Quaternion rightRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch);
         Vector3 rightVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
 
+        // Check if hands are close together
+        float handDistance = Vector3.Distance(leftPosition, rightPosition);
+        if (handDistance <= handCloseThreshold)
+        {
+            handCloseCount++;
+            Debug.Log("Hands are close! Count: " + handCloseCount);
+        }
+
+        // Continue recording other data
         ControllerDataRecord dataRecord = new ControllerDataRecord
         {
             timestamp = Time.time,

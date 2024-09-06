@@ -8,10 +8,12 @@ public class OculusDataRecorder : MonoBehaviour
     public string savePath; // Path where the CSV will be saved
     public static string playerName; // Default player name, can be set from another script
 
-
     private float timer = 0f;
     private List<ControllerData> dataList = new List<ControllerData>();
     private bool isInitialized = false;
+
+    private float handCloseThreshold = 0.1f; // Set the threshold for how close hands should be
+    private int handCloseCount = 0; // Counter for how many times hands are close
 
     private void Start()
     {
@@ -49,12 +51,21 @@ public class OculusDataRecorder : MonoBehaviour
     {
         // Record the positions, rotations, and velocities of the left and right controllers
         Vector3 leftPosition = OVRInput.GetLocalControllerPosition(OVRInput.Controller.LTouch);
-        Quaternion leftRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.LTouch);
-        Vector3 leftVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch);
-
         Vector3 rightPosition = OVRInput.GetLocalControllerPosition(OVRInput.Controller.RTouch);
-        Quaternion rightRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch);
+
+        // Check if hands are close together
+        float handDistance = Vector3.Distance(leftPosition, rightPosition);
+        if (handDistance <= handCloseThreshold)
+        {
+            handCloseCount++;
+            //Debug.Log("Hands are close! Count: " + handCloseCount);
+        }
+
+        // Continue recording other data
+        Vector3 leftVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.LTouch);
+        Quaternion leftRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.LTouch);
         Vector3 rightVelocity = OVRInput.GetLocalControllerVelocity(OVRInput.Controller.RTouch);
+        Quaternion rightRotation = OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch);
 
         ControllerData data = new ControllerData
         {
