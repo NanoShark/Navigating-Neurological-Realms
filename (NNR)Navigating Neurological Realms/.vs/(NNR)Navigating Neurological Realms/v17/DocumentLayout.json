@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\mainmenuscripts\\startbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\mainmenuscripts\\startbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\assets\\_project\\scripts\\recorders\\oculusdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\recorders\\oculusdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\recorders\\computerdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\assets\\_project\\scripts\\recorders\\computerdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\recorders\\computerdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\recorders\\oculusdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\recorders\\oculusdatarecorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|c:\\users\\micka\\documents\\github\\navigating-neurological-realms\\(nnr)navigating neurological realms\\assets\\_project\\scripts\\mainmenuscripts\\startbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF036578-FBF2-BADF-3EDE-8623116403FC}|Assembly-CSharp.csproj|solutionrelative:assets\\_project\\scripts\\mainmenuscripts\\startbuttoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OculusDataRecorder.cs",
               "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\Recorders\\OculusDataRecorder.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Recorders\\OculusDataRecorder.cs",
               "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\Recorders\\OculusDataRecorder.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Recorders\\OculusDataRecorder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwFAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T17:06:48.227Z",
               "EditorCaption": ""
@@ -45,20 +45,20 @@
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\Recorders\\ComputerDataRecorder.cs",
               "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\Recorders\\ComputerDataRecorder.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\Recorders\\ComputerDataRecorder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAASwFMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T17:06:44.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StartButtonController.cs",
               "DocumentMoniker": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\MainMenuScripts\\StartButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\_Project\\Scripts\\MainMenuScripts\\StartButtonController.cs",
               "ToolTip": "C:\\Users\\micka\\Documents\\GitHub\\Navigating-Neurological-Realms\\(NNR)Navigating Neurological Realms\\Assets\\_Project\\Scripts\\MainMenuScripts\\StartButtonController.cs",
               "RelativeToolTip": "Assets\\_Project\\Scripts\\MainMenuScripts\\StartButtonController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAUwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T16:42:09.3Z",
               "EditorCaption": ""
