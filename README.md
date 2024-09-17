@@ -1,6 +1,3 @@
-Here's a draft for the `README.md` file for your "Navigating Neurological Realms" GitHub repository:
-
----
 
 # Navigating Neurological Realms: VR Diagnosis for Early Parkinson's Detection
 
