@@ -1,6 +1,6 @@
 
 # Navigating Neurological Realms: VR Diagnosis for Early Parkinson's Detection
-
+![NNR-removebg-preview](https://github.com/user-attachments/assets/496410dc-019a-4f78-aa23-0054cd70b616)
 ## Overview
 
 Navigating Neurological Realms is a virtual reality (VR) diagnostic tool designed to detect early-stage Parkinson's disease by analyzing hand movement asymmetry. This project utilizes the **Oculus Quest 2** and is built using **Unity** and the **Oculus Integration SDK**. Through swimming-like hand movements tracked in real-time, the system gathers and exports movement data to CSV files, enabling detailed analysis of motor symptoms.
@@ -72,4 +72,5 @@ Python scripts are used to analyze this data to detect hand movement asymmetry, 
 ## Contributing
 
 Contributions are welcome! Please submit any issues or pull requests, and ensure that your code follows the project's guidelines.
+
 
