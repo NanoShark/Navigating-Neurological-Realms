@@ -53,7 +53,7 @@
 1. **Start the application**: Enter the main menu in VR, input your name, and begin the swimming simulation.
 2. **Perform the test**: Use hand movements to simulate swimming while the system tracks your performance.
 3. **End the session**: After the test concludes, CSV data will be generated for further analysis.
-4. **Data analysis**: Use the Python scripts provided to process the CSV data and identify any signs of asymmetry in hand movements.
+4. **Data analysis**: Use the Python script provided to process the CSV data and identify any signs of asymmetry in hand movements.
 
 ## Data Analysis
 
