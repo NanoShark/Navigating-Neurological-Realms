@@ -11,6 +11,7 @@ public class Swimmer : MonoBehaviour
     [SerializeField] float hapticFrequency = 0.5f;  // Frequency for the haptic feedback
     [SerializeField] float hapticAmplitude = 0.8f;  // Amplitude for the haptic feedback
     [SerializeField] float hapticDuration = 0.1f;   // Duration of the haptic feedback
+    [SerializeField] float sinkingSpeed = 0.5f;     // Speed of sinking when idle
 
     [Header("References")]
     [SerializeField] Transform trackingReference;
@@ -71,10 +72,17 @@ public class Swimmer : MonoBehaviour
             }
         }
 
-        // Apply drag force
+        // Apply drag force to slow down the player
         if (_rigidbody.velocity.sqrMagnitude > 0.01f)
         {
             _rigidbody.AddForce(-_rigidbody.velocity * dragForce, ForceMode.Acceleration);
+        }
+
+        // Check if the player is idle (not swimming)
+        if (!isSwimmingThisFrame)
+        {
+            // If not swimming, simulate sinking by applying downward force
+            _rigidbody.AddForce(Vector3.down * sinkingSpeed, ForceMode.Acceleration);
         }
 
         // Handle swimming sound
