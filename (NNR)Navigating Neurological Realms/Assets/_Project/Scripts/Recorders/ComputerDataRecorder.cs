@@ -105,7 +105,7 @@ public class ComputerDataRecorder : MonoBehaviour
             using (StreamWriter writer = new StreamWriter(filePath))
             {
                 writer.WriteLine("Timestamp,LeftPosX,LeftPosY,LeftPosZ,LeftRotX,LeftRotY,LeftRotZ,LeftRotW,LeftVelX,LeftVelY,LeftVelZ," +
-                                 "RightPosX,RightPosY,RightPosZ,RightRotX,RightRotY,RightRotZ,RightRotW,RightVelX,RightVelY,RightVelZ");
+                                 "RightPosX,RightPosY,RightPosZ,RightRotX,RightRotY,RightRotZ,RightRotW,RightVelX,RightVelY,RightVelZ,HandCloseCount");
 
                 foreach (ControllerDataRecord dataRecord in controllerDataList)
                 {
@@ -114,7 +114,7 @@ public class ComputerDataRecorder : MonoBehaviour
                                      $"{dataRecord.leftVelocity.x},{dataRecord.leftVelocity.y},{dataRecord.leftVelocity.z}," +
                                      $"{dataRecord.rightPosition.x},{dataRecord.rightPosition.y},{dataRecord.rightPosition.z}," +
                                      $"{dataRecord.rightRotation.x},{dataRecord.rightRotation.y},{dataRecord.rightRotation.z},{dataRecord.rightRotation.w}," +
-                                     $"{dataRecord.rightVelocity.x},{dataRecord.rightVelocity.y},{dataRecord.rightVelocity.z}");
+                                     $"{dataRecord.rightVelocity.x},{dataRecord.rightVelocity.y},{dataRecord.rightVelocity.z},{handCloseCount}");
                 }
             }
 

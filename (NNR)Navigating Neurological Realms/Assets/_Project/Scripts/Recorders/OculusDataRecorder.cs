@@ -102,7 +102,7 @@ public class OculusDataRecorder : MonoBehaviour
             using (StreamWriter writer = new StreamWriter(filePath))
             {
                 writer.WriteLine("Timestamp,LeftPosX,LeftPosY,LeftPosZ,LeftRotX,LeftRotY,LeftRotZ,LeftRotW,LeftVelX,LeftVelY,LeftVelZ," +
-                                 "RightPosX,RightPosY,RightPosZ,RightRotX,RightRotY,RightRotZ,RightRotW,RightVelX,RightVelY,RightVelZ");
+                                 "RightPosX,RightPosY,RightPosZ,RightRotX,RightRotY,RightRotZ,RightRotW,RightVelX,RightVelY,RightVelZ,HandsCloseCount");
 
                 foreach (ControllerData data in dataList)
                 {
@@ -111,7 +111,7 @@ public class OculusDataRecorder : MonoBehaviour
                                      $"{data.leftVelocity.x},{data.leftVelocity.y},{data.leftVelocity.z}," +
                                      $"{data.rightPosition.x},{data.rightPosition.y},{data.rightPosition.z}," +
                                      $"{data.rightRotation.x},{data.rightRotation.y},{data.rightRotation.z},{data.rightRotation.w}," +
-                                     $"{data.rightVelocity.x},{data.rightVelocity.y},{data.rightVelocity.z}");
+                                     $"{data.rightVelocity.x},{data.rightVelocity.y},{data.rightVelocity.z},{handCloseCount}");
                 }
             }
 
