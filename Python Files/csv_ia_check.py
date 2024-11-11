@@ -13,15 +13,14 @@ drive.mount('/content/gdrive/', force_remount=True)
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import glob  # To load multiple files
-import os  # Import the os module
+import glob
+import os
 
 def calculate_ia(L, R):
     """Calculate Index of Asymmetry (IA)"""
     return abs((L - R) / max(L, R)) * 100
 
 def analyze_asymmetry(data):
-    # Extract relevant columns for left and right controllers
     left_position_cols = ['LeftPosX', 'LeftPosY', 'LeftPosZ']
     right_position_cols = ['RightPosX', 'RightPosY', 'RightPosZ']
 
@@ -44,12 +43,10 @@ def analyze_asymmetry(data):
 
 def determine_if_results_are_ok(asymmetry_results, healthy_thresholds):
     """Check if the asymmetry results exceed predefined thresholds from the healthy data."""
-    # Calculate the average IA over time
     avg_ia_position = np.mean(asymmetry_results['ia_positions'])
 
     print(f"Average IA for Positions: {avg_ia_position}")
 
-    # Check if the results are okay
     if avg_ia_position <= healthy_thresholds['position_threshold']:
         print("Position IA below/equal to the threshold.")
     else:
@@ -73,8 +70,7 @@ def calculate_healthy_threshold(healthy_files):
     position_threshold = np.median(all_ia_positions)
 
     # Optionally apply a safety factor to the threshold to make it more strict
-    position_threshold *= 1.2  # Adjust this factor as needed
-
+    position_threshold *= 1.2
     return {
         'position_threshold': position_threshold
     }
@@ -85,15 +81,9 @@ def plot_asymmetry_over_time(test_data, healthy_thresholds):
     # Analyze asymmetry to get the time series of IA values for the test data
     asymmetry_results = analyze_asymmetry(test_data)
 
-    # Plotting
     plt.figure(figsize=(10, 6))
-
-    # Plot positions IA over time
     plt.plot(test_data['Timestamp'], asymmetry_results['ia_positions'], label='Position IA', color='blue')
-
-    # Add a red horizontal line for the threshold
     plt.axhline(y=healthy_thresholds['position_threshold'], color='red', linestyle='--', label='Threshold')
-
     plt.xlabel('Time (s)')
     plt.ylabel('Index of Asymmetry (IA)')
     plt.title('Asymmetry Over Time')
@@ -101,7 +91,6 @@ def plot_asymmetry_over_time(test_data, healthy_thresholds):
     plt.grid(True)
     plt.show()
 
-    # Determine if results are OK based on thresholds
     determine_if_results_are_ok(asymmetry_results, healthy_thresholds)
 
 def main():
@@ -112,8 +101,8 @@ def main():
     healthy_files = glob.glob(f"{healthy_folder_path}/*.csv")
 
     # Load the test CSV file
-    #test_data = pd.read_csv("/content/gdrive/MyDrive/Colab Notebooks/NNR/Data/michael pd_20240918_1906.csv")
-    test_data = pd.read_csv("/content/gdrive/MyDrive/Colab Notebooks/NNR/Data/michael fake_20241007_2242.csv")
+    test_data = pd.read_csv("/content/gdrive/MyDrive/Colab Notebooks/NNR/Data/michael pd_20240918_1906.csv")
+    #test_data = pd.read_csv("/content/gdrive/MyDrive/Colab Notebooks/NNR/Data/michael fake_20241007_2242.csv")
     # Calculate thresholds based on multiple healthy CSV files
     healthy_thresholds = calculate_healthy_threshold(healthy_files)
 
